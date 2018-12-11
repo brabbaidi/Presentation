@@ -1,0 +1,13 @@
+	document.getElementById('info-pic').src= 'img1/'+selected+'.jpg';
+		document.getElementById('info-Place').textContent = ZagatVegiRestaurantData[this.value].Place;
+		document.getElementById('info-Type').textContent = ZagatVegiRestaurantData[this.value].Type;
+		document.getElementById('info-BestDish').textContent = ZagatVegiRestaurantData[this.value].BestDish;
+		document.getElementById('info-Price').textContent = ZagatVegiRestaurantData[this.value].Price;
+		document.getElementById('info-zagatCity').textContent = ZagatVegiRestaurantData[this.value].zagatCity;
+		document.getElementById('info-Category').textContent = ZagatVegiRestaurantData[this.value].Category;
+		document.getElementById('info-date').textContent = ZagatVegiRestaurantData[this.value].date;
+		document.getElementById('info-Author').textContent = ZagatVegiRestaurantData[this.value].Author;
+		document.getElementById('info-FoodReview').textContent = ZagatVegiRestaurantData[this.value].FoodReview;
+		document.getElementById('info-DecorReview').textContent = ZagatVegiRestaurantData[this.value].DecorReview;
+		document.getElementById('info-ServiceReview').textContent = ZagatVegiRestaurantData[this.value].ServiceReview;
+	};
